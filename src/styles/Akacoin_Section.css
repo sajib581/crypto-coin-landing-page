@@ -1,0 +1,77 @@
+.akacoin {
+  /* height: 758px; */
+  background-color: white;
+  padding: 0px 60px;
+}
+.akacoinDesc p {
+  width: 695px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #5b5d6d;
+  margin-bottom: 5px;
+}
+.akacoinDesc h6 {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  color: #1f33d8;
+}
+.akaTitle {
+  font-style: normal;
+  font-size: 40px;
+  line-height: 52px;
+  color: #0e133a;
+}
+.akacoin .leftImg {
+  height: 25rem;
+  width: 25rem;
+  background-color: #ffd456;
+}
+.akacoin .rightImg {
+  height: 25rem;
+  width: 760px;
+  display: flex;
+  justify-content: center;
+  background-color: yellow;
+  overflow: hidden;
+}
+
+.akaCoinImages {
+  display: flex;
+  justify-content: space-between;
+}
+.watchVideo {
+  position: absolute;
+  width: 240px;
+  height: 93px;
+  left: 0;
+  top: 50%;
+  bottom: 50%;
+  margin: auto;
+  background: #0c20cb;
+  border-radius: 0px 46.5px 46.5px 0px;
+}
+.player {
+  position: absolute;
+  width: 92px;
+  height: 92px;
+  background: #0c20cb;
+  border-radius: 50%;
+  right: -20px;
+  top: 50%;
+  bottom: 50%;
+  margin: auto;
+}
+
+.player h4 {
+  position: absolute;
+  top: 35%;
+  bottom: 50%;
+  left: 40%;
+  right: 50%;
+}
