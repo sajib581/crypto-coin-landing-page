@@ -17,7 +17,7 @@ const AkacoinSection = () => {
             ecosystem in crypto, with thousands of projects spanning DeFi, NFTs,
             Web3 and more. Explore Ecosystem Learn Akacoin Watch Video
           </p>
-          <h6>Explore Ecosystem   <FontAwesomeIcon className="pl-4" icon={faArrowRightLong} /></h6>
+          <h6>Explore Ecosystem   <FontAwesomeIcon className="pl-4 arrow" icon={faArrowRightLong} /></h6>
         </div>
       </div>
       <div className="pb-5 mb-5 akaCoinImages">

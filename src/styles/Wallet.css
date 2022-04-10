@@ -1,0 +1,64 @@
+.wallet {
+  width: 32%;
+  height: 28.9rem;
+  border-radius: 20px;
+  padding: 40px 40px;
+  /* background: #1f33d8; */
+  color: white;
+  position: relative;
+  overflow: hidden;
+}
+.wallet img {
+  height: 36px;
+}
+
+.wallet h6 {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  color: #ffffff;
+}
+.wallet p {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  color: #ffffff;
+}
+.arrow {
+  position: relative;
+  top: 3px;
+}
+.one {
+  position: absolute;
+  width: 234px;
+  height: 113px;
+  top: 0;
+  right: -80px;
+  /* background: #0c20cb; */
+  border-radius: 56.5px;
+}
+.two {
+  position: absolute;
+  width: 120px;
+  height: 75px;
+  top: 300;
+  right: -30px;
+  /* background: #0c20cb; */
+  border-radius: 37.5px;
+}
+.three {
+  position: absolute;
+  width: 218px;
+  height: 62px;
+  bottom: 40px;
+  left: -20px;
+  /* background: #0c20cb; */
+  border-radius: 31.5px;
+}
+.wallet h2 {
+  z-index: 1;
+}
