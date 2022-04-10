@@ -2,8 +2,8 @@ import React from 'react';
 
 const YourWallet = () => {
     return (
-        <div>
-            
+        <div className="yourWallet">
+            <h2>Choose Your Wallets</h2>
         </div>
     );
 };

@@ -1,7 +1,7 @@
 .akacoin {
   /* height: 758px; */
   background-color: white;
-  padding: 0px 60px;
+  padding: 0px 100px;
 }
 .akacoinDesc p {
   width: 695px;
@@ -31,6 +31,7 @@
   height: 25rem;
   width: 25rem;
   background-color: #ffd456;
+  border-radius: 10px;
 }
 .akacoin .rightImg {
   height: 25rem;
@@ -39,6 +40,7 @@
   justify-content: center;
   background-color: yellow;
   overflow: hidden;
+  border-radius: 10px;
 }
 
 .akaCoinImages {
@@ -47,7 +49,7 @@
 }
 .watchVideo {
   position: absolute;
-  width: 240px;
+  width: 220px;
   height: 93px;
   left: 0;
   top: 50%;
