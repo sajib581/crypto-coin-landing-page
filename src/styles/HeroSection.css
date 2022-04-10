@@ -1,0 +1,65 @@
+section {
+  background-color: #f4f5fa;
+  overflow: hidden;
+}
+.heroSection .left h1 {
+  width: 650px;
+  height: 200px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 100px;
+  color: #0e133a;
+}
+.heroSection .left h5 {
+  height: 26px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 26px;
+  color: #0e133a;
+}
+.heroSection .left p {
+  width: 650px;
+  height: 56px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #5b5d6d;
+}
+.aka {
+  color: #ffcd37;
+}
+.coin {
+  color: red;
+}
+.btns button {
+  padding: 16px 56px;
+  border-radius: 38px;
+  border: none;
+  width: 12.5rem;
+}
+.btns .getStarted {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  background: #1f33d8;
+  color: white;
+}
+.btns .source {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background: #ffffff;
+}
+.heroSection .right img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}

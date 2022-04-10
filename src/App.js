@@ -1,23 +1,22 @@
-import logo from './logo.svg';
 import './App.css';
+import AkacoinSection from './Component/pages/AkacoinSection';
+import Banner from './Component/pages/Banner';
+import Footer from './Component/pages/Footer';
+import HeroSection from './Component/pages/HeroSection';
+import NetworkStatistics from './Component/pages/NetworkStatistics';
+import QuickStart from './Component/pages/QuickStart';
+import YourWallet from './Component/pages/YourWallet';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div >
+      <HeroSection />
+      <AkacoinSection/>
+      <YourWallet/>
+      <QuickStart/>
+      <Banner/>
+      <NetworkStatistics/>
+      <Footer/>
     </div>
   );
 }
