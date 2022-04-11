@@ -1,0 +1,33 @@
+.quickStart {
+  height: 647px;
+  background-color: white;
+}
+.group {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.group .bag {
+  width: 500px;
+  height: 240px;
+}
+.group .bag .toasts {
+  width: 480px;
+  height: 170px;
+}
+.group .bag img {
+  width: 160px;
+  height: 160px;
+  background-color: #ffd456;
+  border-radius: 50%;
+}
+.quickStart .toasts p {
+  width: 277px;
+  height: 56px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  color: #5b5d6d;
+}
