@@ -1,18 +1,19 @@
-.wallet {
+.bannerDemo {
   width: 32%;
-  height: 28.9rem;
+  height: 440px;
   border-radius: 20px;
   padding: 40px 40px;
-  /* background: #1f33d8; */
   color: white;
   position: relative;
   overflow: hidden;
 }
-.wallet img {
+.bannerDemo h2 {
+  z-index: 2;
+}
+.bannerDemo img {
   height: 36px;
 }
-
-.wallet h6 {
+.bannerDemo h6 {
   font-family: "Lato";
   font-style: normal;
   font-weight: 600;
@@ -20,44 +21,49 @@
   line-height: 28px;
   color: #ffffff;
 }
-.wallet p {
+.bannerDemo p {
   font-family: "Lato";
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 28px;
+  z-index: 10 !important;
 }
 .arrow {
   position: relative;
   top: 3px;
 }
-.one {
+.bannerDemo .one {
   position: absolute;
-  width: 234px;
-  height: 113px;
-  top: 0;
-  right: -80px;
-  /* background: #0c20cb; */
+  width: 109px;
+  height: 50px;
+  top: 30px;
+  right: -20px;
+  z-index: 1;
   border-radius: 56.5px;
 }
-.two {
+.bannerDemo .two {
   position: absolute;
-  width: 120px;
-  height: 75px;
-  top: 300;
-  right: -30px;
-  /* background: #0c20cb; */
+  width: 141px;
+  height: 58px;
+  bottom: 200px;
+  left: -30px;
   border-radius: 37.5px;
+  z-index: 1;
 }
-.three {
+.bannerDemo .three {
   position: absolute;
   width: 218px;
   height: 62px;
   bottom: 40px;
   left: -20px;
-  /* background: #0c20cb; */
   border-radius: 31.5px;
 }
-.wallet h2 {
-  z-index: 1;
+.bannerDemo .four {
+  position: absolute;
+  width: 141px;
+  height: 83px;
+  bottom: -30px;
+  right: -30px;
+  border-radius: 37.5px;
 }
