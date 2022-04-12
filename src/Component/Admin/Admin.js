@@ -12,7 +12,7 @@ const Admin = () => {
   const {    register,    handleSubmit,    watch,    formState: { errors },  } = useForm();
   
   useEffect(()=>{
-    fetch('http://localhost:5000/getHeader')
+    fetch('https://aka-coin-blockchain.herokuapp.com/getHeader')
     .then(res => res.json() )
     .then(data =>{
       setHeaderData(data)
@@ -35,7 +35,7 @@ const Admin = () => {
         formData.append("file", file);
         formData.append("sectionInfo", JSON.stringify(data));
 
-        fetch(`http://localhost:5000/addData`, {
+        fetch(`https://aka-coin-blockchain.herokuapp.com/addData`, {
           method: "POST",
           body: formData,
         })
@@ -82,7 +82,7 @@ const Admin = () => {
   function updateHandler(e, isDelete){
     const caseName = e.target.name
 
-    fetch(`http://localhost:5000/editTitleDescription`, {
+    fetch(`https://aka-coin-blockchain.herokuapp.com/editTitleDescription`, {
           method: "PATCH",
           headers: {'Content-Type': "application/json"},
           body: JSON.stringify({id : headerData._id, [caseName]: headerData[caseName], isDelete })
@@ -106,7 +106,7 @@ const Admin = () => {
         formData.append("file", file);
         formData.append("id", JSON.stringify({id : headerData._id}));
 
-      fetch(`http://localhost:5000/updateImage`, {
+      fetch(`https://aka-coin-blockchain.herokuapp.com/updateImage`, {
         method: "PATCH",
         body: formData,
       })

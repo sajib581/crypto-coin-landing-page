@@ -8,7 +8,7 @@ import './test.css';
 const HeroSection = () => {
     const [headerData, setHeaderData] = useState({})
     useEffect(()=>{
-      fetch('http://localhost:5000/getHeader')
+      fetch('https://aka-coin-blockchain.herokuapp.com/getHeader')
       .then(res => res.json() )
       .then(data =>{
         setHeaderData(data)

@@ -42,7 +42,7 @@ const DetailsModal = ({
       formData.append("file", file);
       formData.append("sectionInfo", JSON.stringify(data));
 
-      fetch(`http://localhost:5000/updateData`, {
+      fetch(`https://aka-coin-blockchain.herokuapp.com/updateData`, {
         method: "PATCH",
         body: formData,
       })
