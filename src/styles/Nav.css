@@ -4,3 +4,9 @@
 .navbar-brand img {
   height: 1.813rem;
 }
+
+nav {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}

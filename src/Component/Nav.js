@@ -2,11 +2,11 @@ import { faEarth } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import { Link } from "react-router-dom";
-import '../styles/Nav.module.css';
+import '../styles/Nav.css';
 
 const Nav = () => {
   return (
-    <div className="mx-5 px-3">
+    <div className="mx-5 px-3 navbars">
       <nav className="navbar navbar-expand-lg navbar-light ">
       <Link className="navbar-brand" to="/">
           <img
