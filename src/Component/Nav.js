@@ -1,18 +1,19 @@
 import { faEarth } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
+import { Link } from "react-router-dom";
 import '../styles/Nav.module.css';
-  
+
 const Nav = () => {
   return (
     <div className="mx-5 px-3">
       <nav className="navbar navbar-expand-lg navbar-light ">
-      <a className="navbar-brand" href="#/">
+      <Link className="navbar-brand" to="/">
           <img
             src="https://i.ibb.co/6BkH9FZ/Logo.png"
             alt=""
           />
-        </a>
+        </Link>
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>

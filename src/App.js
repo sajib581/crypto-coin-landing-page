@@ -1,23 +1,18 @@
-import './App.css';
-import AkacoinSection from './Component/pages/AkacoinSection';
-import Banner from './Component/pages/Banner';
-import Footer from './Component/pages/Footer';
-import HeroSection from './Component/pages/HeroSection';
-import NetworkStatistics from './Component/pages/NetworkStatistics';
-import QuickStart from './Component/pages/QuickStart';
-import YourWallet from './Component/pages/YourWallet';
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import "./App.css";
+import Admin from "./Component/Admin/Admin";
+import NotFound from "./Component/NotFound";
+import Home from "./Component/pages/Home";
 
 function App() {
   return (
-    <div >
-      <HeroSection />
-      <AkacoinSection/>
-      <YourWallet/>
-      <QuickStart/>
-      <Banner/>
-      <NetworkStatistics/>
-      <Footer/>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="admin" element={<Admin />} />
+        <Route path="/" element={<Home />} />
+        <Route path="*" element={<NotFound />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 

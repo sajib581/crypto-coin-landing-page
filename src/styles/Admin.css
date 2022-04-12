@@ -1,0 +1,11 @@
+.edit h3 {
+  display: inline-block;
+}
+
+.edit img {
+  height: 160px;
+}
+
+.edit .cng {
+  height: 40px;
+}
